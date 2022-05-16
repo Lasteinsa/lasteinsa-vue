@@ -1,0 +1,7 @@
+{
+  "name": "lasteinsa-vue",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
