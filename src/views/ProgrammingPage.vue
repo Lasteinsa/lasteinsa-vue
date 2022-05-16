@@ -5,19 +5,18 @@
         <ion-buttons slot="start">
           <ion-menu-button color="primary"></ion-menu-button>
         </ion-buttons>
-        <ion-title>Title</ion-title>
+        <ion-title>Programming</ion-title>
       </ion-toolbar>
     </ion-header>
     
     <ion-content :fullscreen="true">
       <ion-header collapse="condense">
         <ion-toolbar>
-          <ion-title size="large">Title</ion-title>
+          <ion-title size="large">Programming</ion-title>
         </ion-toolbar>
       </ion-header>
-      <div class="bg-red-500">
-        Hello World
-      </div>
+    
+      
     </ion-content>
   </ion-page>
 </template>
@@ -34,11 +33,11 @@ export default defineComponent({
     IonMenuButton,
     IonPage,
     IonTitle,
-    IonToolbar
+    IonToolbar,
   },
   mounted() {  
-    document.title = "Page";  
-  }, 
+    document.title = "Programming Page";  
+  },  
 });
 </script>
 

@@ -5,14 +5,14 @@
         <ion-buttons slot="start">
           <ion-menu-button color="primary"></ion-menu-button>
         </ion-buttons>
-        <ion-title>Title</ion-title>
+        <ion-title>About</ion-title>
       </ion-toolbar>
     </ion-header>
     
     <ion-content :fullscreen="true">
       <ion-header collapse="condense">
         <ion-toolbar>
-          <ion-title size="large">Title</ion-title>
+          <ion-title size="large">About</ion-title>
         </ion-toolbar>
       </ion-header>
       <div class="bg-red-500">
@@ -37,7 +37,7 @@ export default defineComponent({
     IonToolbar
   },
   mounted() {  
-    document.title = "Page";  
+    document.title = "About";  
   }, 
 });
 </script>
