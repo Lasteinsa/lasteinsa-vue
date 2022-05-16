@@ -15,27 +15,27 @@ const routes: Array<RouteRecordRaw> = [
   },
   {
     path: '/Home',
-    component: () => HomePage
+    component: HomePage
   },
   {
     path: '/Programming',
-    component: () => ProgrammingPage
+    component: ProgrammingPage
   },
   {
     path: '/Music',
-    component: () => MusicPage
+    component: MusicPage
   },
   {
     path: '/Game',
-    component: () => GamePage
+    component: GamePage
   },
   {
     path: '/Contact',
-    component: () => ContactPage
+    component: ContactPage
   },
   {
     path: '/About',
-    component: () => AboutPage
+    component: AboutPage
   }
 
   // {
